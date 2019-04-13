@@ -1,23 +1,23 @@
-#Create React-App Instructions
+# Create React-App Instructions
 
-##We want to setup the front end using create react app:
+## We want to setup the front end using create react app:
 $ npm install -g create-react-app
 
-##Next you want to setup your application to be called front end:
+## Next you want to setup your application to be called front end:
 $ create-react-app frontend
 
-#Run the following commands to navigate into the working directory and start the frontend server
+# Run the following commands to navigate into the working directory and start the frontend server
 $ cd frontend
 $ npm start
 
-##We can now visit this address — http://localhost:3000 — to see the default React app
+## We can now visit this address — http://localhost:3000 — to see the default React app
 
 
-##Let's style the UI with bootstrap and reactstrap with the following commands:
+## Let's style the UI with bootstrap and reactstrap with the following commands:
 $ yarn add bootstrap reactstrap
 
 
-###Let’s open the src/index.css file and replace the styles there with this one:
+### Let’s open the src/index.css file and replace the styles there with this one:
 
  /__ frontend/src/index.css  __/
 
@@ -49,7 +49,7 @@ $ yarn add bootstrap reactstrap
       color: #ffffff;
     }
 
-###We will import Bootstrap’s stylesheet in src/index.js so that we can use Bootstrap’s classes:
+### We will import Bootstrap’s stylesheet in src/index.js so that we can use Bootstrap’s classes:
 
 import React from 'react';
       import ReactDOM from 'react-dom';
@@ -59,7 +59,7 @@ import React from 'react';
       import * as serviceWorker from './serviceWorker';
 
 
-##Let’s replace the code in src/App.js with this one:
+## Let’s replace the code in src/App.js with this one:
 // frontend/src/App.js
 
     import React, { Component } from "react";
@@ -174,11 +174,11 @@ import React from 'react';
     $ mkdir src/components
     
     
-   ##Create a Modal.js file in the components folder:
+   ## Create a Modal.js file in the components folder:
     $ touch src/components/Modal.js
     
     
-    ###Open the Modal.js file and populate it with the code snippet below:
+    ### Open the Modal.js file and populate it with the code snippet below:
     
     // frontend/src/components/Modal.js
 
@@ -261,4 +261,4 @@ import React from 'react';
     }
     
     
-    ##Now let's make your own Todo List App with your own ideas....
+    ## Now let's make your own Todo List App with your own ideas....
