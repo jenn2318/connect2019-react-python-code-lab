@@ -1,1 +1,1 @@
-# connect2019-react-python-code-lab
+# 🎉💻Connect 2019 React+Python Code Lab
