@@ -178,7 +178,7 @@ import React from 'react';
     $ touch src/components/Modal.js
     
     
-    ### Open the Modal.js file and populate it with the code snippet below:
+     Open the Modal.js file and populate it with the code snippet below:
     
     // frontend/src/components/Modal.js
 
@@ -261,4 +261,5 @@ import React from 'react';
     }
     
     
-    ## Now let's make your own Todo List App with your own ideas....
+    
+    ##Now let's make your own Todo List App with your own ideas....
